@@ -1,0 +1,27 @@
+
+<div class='acessories-container'>
+<div class='gen-boosted-background'>
+  <h2>2nd Gen Boosted Board</h2>
+  <p>Increase your door-to-door speed with this powerful <br /> electric skateboard</p>
+    <button ui-sref='acessories' type="button" name="button" class='btn btn-default btn-lg orange-btn boosted'>shop now</button>
+</div>
+<div class='accessories-images'>
+
+  <img src="./img/shop-1stgen.jpg" >
+  <img src='./img/shop-boosted-accessories.jpg' >
+
+
+</div>
+
+<div class='products-container'>
+<div ng-repeat='product in products' class='shop-now-container' >
+  <img ui-sref='details({id: product.product_id})' ng-src='{{product.image_url}}' >
+
+ <div class='product-title'>{{product.title}}</div>
+
+
+<div class='product-price'>${{product.price}}</div>
+</div>
+</div>
+</div>
+</div><!-- end of acessories-container -->

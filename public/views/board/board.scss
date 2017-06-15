@@ -1,0 +1,330 @@
+.love-ride-background {
+  background: url('./img/best-electric-skateboard.jpg') center center no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: table;
+  width: 100%;
+}
+
+#jumbotron-ride {
+  background: transparent;
+  margin-left: 11%;
+  margin-top: -7%;
+}
+
+#ride-header {
+  font-family: 'reglo';
+  font-weight: bolder;
+  font-size: 90px;
+  color: #fff;
+  line-height: 48px;
+  margin: 0 0 30px;
+  letter-spacing: 2px;
+  word-spacing: -20px;
+}
+
+#ride-paragraph {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 40px;
+}
+
+.ride-text {
+  text-align: center;
+  margin-top: -5.9%;
+  letter-spacing: 1px;
+}
+
+.center-container {
+  display: table;
+}
+
+.farther-board-img {
+  background: url('./img/electric-skateboard-range.jpg') center center no-repeat;
+  background-size: cover;
+  height: 650px;
+  display: table;
+  width: 100%;
+}
+
+.col-xs-12 {
+  padding: 0;
+  margin: 0;
+}
+
+.col-xs-6 {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.farther-text h3 {
+  font-family: 'Archivo Bold', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+  line-height: 48px;
+  margin: 50px 60px 0;
+  letter-spacing: 1px;
+}
+
+.farther-board-container {
+  width: 100%;
+  height: 100%;
+}
+
+.farther-text p {
+  font-size: 15px;
+  color: grey;
+  line-height: 30px;
+  margin: 30px 60px 0;
+  letter-spacing: 1px;
+}
+
+.farther-icon-text {
+  padding: 40px 40px 0;
+  font-size: 17px;
+  font-family: 'Archivo Bold', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.hill-container {
+  background: url('./img/skateboard-hill-riding.jpg') center center no-repeat;
+  background-size: contain;
+  background-position: top;
+  display: table;
+  height: 650px;
+  width: 100%;
+}
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+  #jumbotron-ride {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  #ride-paragraph {
+    font-size: 18px;
+  }
+
+  .hill-container {
+    position: relative;
+    height: 1255px;
+    overflow: hidden;
+  }
+
+  .white-background {
+    width: 49vw;
+    height: 719px;
+    background-color: white;
+    margin: 4px;
+    display: table;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .up-hill-breeze {
+    width: 849px;
+    height: 476px;
+    right: -118px;
+    position: absolute;
+    bottom: -5px;
+    z-index: 1;
+  }
+
+  .up-hill-list-icons {
+    margin-top: 7%;
+    display: inline-block;
+  }
+
+  .up-hill-list-img {
+    width: 40px;
+    font-family: 'Archivo Bold', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  .up-hill-list-text {
+    padding: 0 180px;
+    font-size: 13px;
+    font-family: 'Archivo Bold', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  .white-background h3 {
+    font-family: 'reglo';
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 5%;
+  }
+
+  .white-background-paragraph {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: grey;
+    margin-top: 0;
+  }
+
+  .beginner-pro {
+    background-image: url('./img/boosted-board-modes.jpg');
+    background-size: cover;
+    height: 540px;
+  }
+
+  .beginner-pro-text {
+    text-align: center;
+    color: white;
+  }
+
+  .beginner-pro-header {
+    font-weight: 800;
+    font-size: 40px;
+    word-spacing: -2px;
+    padding: 3% 0 2% 34%;
+  }
+
+  .beginner-pro-paragraph {
+    padding: 0 0 0 51%;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 200;
+  }
+
+  .beginner-pro-icons {
+    padding-left: 51%;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .beginner-pro-icon-text {
+    padding-top: 29px;
+  }
+
+  .responsive {
+    width: 34px;
+    margin-left: -4px;
+    display: inline-block;
+  }
+
+  .mode {
+    width: 33px;
+    margin-left: -2px;
+    display: inline-block;
+  }
+
+  .bluetooth {
+    width: 55px;
+    margin-left: -16px;
+    display: inline-block;
+    margin: -15px;
+  }
+
+  .ride-more-container {
+    background: url('./img/boosted-replaceable-parts.jpg')center center no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 1255px;
+    margin-top: -24%;
+  }
+
+  .ride-more-white-background {
+    width: 49vw;
+    text-align: left;
+    height: 545px;
+    background-color: white;
+    margin: 4px;
+    display: table;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .ride-more-header {
+    text-transform: uppercase;
+    font-family: 'reglo';
+    text-align: left;
+    font-weight: 800;
+    font-size: 40px;
+    word-spacing: -2px;
+    margin-left: 9%;
+    margin-top: 9%;
+  }
+
+  .ride-more-paragraph {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+    color: grey;
+    margin-top: 0;
+    margin-left: 8%;
+  }
+
+  .ride-more-icons {
+    font-family: 'reglo';
+    font-weight: 400;
+    padding-top: 17px;
+    padding-left: 6px;
+  }
+
+  .tools-icon {
+    width: 34px;
+    margin-left: 83px;
+    display: inline-block;
+  }
+
+  .headphones-icon {
+    width: 33px;
+    margin-left: 73px;
+    display: inline-block;
+  }
+
+  .badge-icon {
+    width: 45px;
+    margin-left: 67px;
+    display: inline-block;
+  }
+  .help-container{
+    background: url('./img/boosted-boards-support.jpg')center center no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  .help-text-container{
+    text-align: center;
+  }
+  .help-text-container h3{
+    font-family: 'reglo';
+font-size: 41px;
+font-weight: 800;
+word-spacing: -6px;
+padding-top: 4%;
+  }
+  .help-paragraph{
+    font-size: 16px;
+  }
+  .black-btn{
+    color: white;
+    border: 4px solid black;
+    width: 150px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-variant: 200;
+    background-color: black;
+    margin-left: 44%;
+    margin-top: 2%;
+    &:hover{
+      color: #fff;
+      background-color: black;
+          border: 4px solid black;
+    }
+  }
+}

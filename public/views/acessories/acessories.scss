@@ -1,0 +1,52 @@
+.acessories-container{
+  background-color: #f6f6f6;
+}
+.gen-boosted-background{
+  background: url('./img/shop-electric-skateboards.jpg')center center no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 500px;
+  display: table;
+
+}
+.gen-boosted-background h2{
+  font-family: 'Reglo';
+  color:white;
+  font-size: 50px;
+  margin-top: 12%;
+  margin-left: 24%;
+  font-weight: 800;
+  word-spacing: -10px;
+}
+.gen-boosted-background p{
+  color:white;
+  font-size: 20px;
+  margin-left: 24%;
+}
+.boosted{
+  margin-left: 24%;
+}
+.shop-now-container img{
+  width: 269px;
+}
+.shop-now-container{
+  text-align: center;
+  margin: 14% -16px -4% 10%;
+  display: inline-grid;
+}
+.product-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+.accessories-images{
+
+  margin-bottom: -3.7%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.products-container{
+  margin-top: 20%;
+}
+.accessories-images{
+  position: absolute;
+}
