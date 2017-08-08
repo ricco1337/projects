@@ -306,6 +306,21 @@
       background-color: black;
       border: 4px solid black; } }
 
+.product-description {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 13%;
+  margin-bottom: 10%; }
+
+.product-details-title {
+  font-size: 30px; }
+
+.product-details-price {
+  font-size: 30px; }
+
+#button-accessories {
+  margin-left: 17%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -700,18 +715,3 @@ ul {
   display: table-cell;
   vertical-align: middle;
   padding: 100px 80px; }
-
-.product-description {
-  font-size: 24px;
-  text-align: center;
-  margin-top: 13%;
-  margin-bottom: 10%; }
-
-.product-details-title {
-  font-size: 30px; }
-
-.product-details-price {
-  font-size: 30px; }
-
-#button-accessories {
-  margin-left: 17%; }

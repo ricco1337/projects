@@ -56,6 +56,10 @@ this.getProductById = function(id){
 
 }])
 
+angular.module('app').controller('boardController', ["$scope", function($scope){
+
+}]);
+
 angular.module('app').controller('acessoriesController', ["$scope", "service", function($scope, service){
 $scope.getProducts = function(){
   service.getProducts().then(function(response){
@@ -67,10 +71,6 @@ $scope.getProducts = function(){
 }
 
 $scope.getProducts()
-
-}]);
-
-angular.module('app').controller('boardController', ["$scope", function($scope){
 
 }]);
 
